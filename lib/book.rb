@@ -36,6 +36,18 @@ class Book
     @genre
   end
   
+  def current_page= (b_current_page)
+    @current_page = b_current_page
+  end
+  
+  def current_page
+    @current_page
+  end
+  
+  def turn_page
+    current_page = 
+  
+  
 end
 
 
