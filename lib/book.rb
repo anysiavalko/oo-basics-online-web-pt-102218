@@ -46,7 +46,6 @@ class Book
   
   def turn_page
     current_page.to_i + 1
-    current_page.to_s 
     puts "Flipping the page...wow, you read fast!"
   end
   
