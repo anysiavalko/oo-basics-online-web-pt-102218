@@ -46,8 +46,8 @@ class Book
   
   def turn_page
     current_page.to_i + 1
-    current_page
     puts "Flipping the page...wow, you read fast!"
+    puts "You are on page #{current_page}."
   end
   
   
