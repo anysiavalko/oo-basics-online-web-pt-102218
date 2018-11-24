@@ -45,8 +45,8 @@ class Book
   end
   
   def turn_page
-    current_page.to_i
-    current_page = current_page + 1
+    current_page.to_i + 1
+    current_page.to_s 
     current_page
   end
   
