@@ -1,24 +1,35 @@
 class Book
-  def initialize(book_title) 
-   @title = book_title
+  def initialize(b_title) 
+   @title = b_title
   end
   
-  def title= (book_title)
-    @title = book_title
+  def title= (b_title)
+    @title = b_title
   end
   
   def title
     @title
   end
   
-  def author= (book_author)
-    @author = book_author
+  def author= (b_author)
+    @author = b_author
   end
 
   def author
     @author
   end
   
+  def page_count= (b_page_count)
+    @page_count = b_page_count
+  end
+  
+  def page_count
+    @page_count
+  end
+  
+  
+  def genre= (b_genre)
+    @genre = 
 end
 
 
