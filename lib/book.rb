@@ -45,7 +45,8 @@ class Book
   end
   
   def turn_page
-    current_page = 
+    current_page = current_page + 1 
+  end
   
   
 end
